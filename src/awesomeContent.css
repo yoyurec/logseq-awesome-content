@@ -1,5 +1,5 @@
-@import url("./modules/content/query/query.css");
-@import url("./modules/content/admonition/admonition.css");
-@import url("./modules/content/calculator/calculator.css");
+@import url("./modules/query/query.css");
+@import url("./modules/admonition/admonition.css");
+@import url("./modules/calculator/calculator.css");
 @import url("./modules/code/code.css");
 @import url("./modules/other/other.css");

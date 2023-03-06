@@ -2,24 +2,24 @@
 /* @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/awesomeContent-content.css") only screen and (max-width: 1024px); */
 
 /* Components */
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/admonition/admonition.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/admonition/admonition.css") only screen and (max-width: 1024px);
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/calculator/calculator.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/calculator/calculator.css") only screen and (max-width: 1024px);
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/columns/columns.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/columns/columns.css") only screen and (max-width: 1024px);
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/flashcards/flashcardAwesome.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/flashcards/flashcardAwesome.css") only screen and (max-width: 1024px);
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/headersLabels/headersLabels.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/headersLabels/headersLabels.css") only screen and (max-width: 1024px);
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/mermaid/mermaid.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/mermaid/mermaid.css") only screen and (max-width: 1024px);
 
 /* TODO: disabled for now  - weird look on mobile */
-/* @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/query/query.css") only screen and (max-width: 1024px); */
+/* @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/query/query.css") only screen and (max-width: 1024px); */
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/quotes/quotes.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/quotes/quotes.css") only screen and (max-width: 1024px);
 
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/tasks/tasks.css") only screen and (max-width: 1024px);
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/tasks/tasks.css") only screen and (max-width: 1024px);
 
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/code/code.css") only screen and (max-width: 1024px);
 

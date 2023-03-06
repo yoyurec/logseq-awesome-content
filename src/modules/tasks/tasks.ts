@@ -1,4 +1,4 @@
-import { doc, body, globals } from '../../globals/globals';
+import { doc, body, globals } from '../globals/globals';
 
 import tasksStyles from './tasks.css?inline';
 

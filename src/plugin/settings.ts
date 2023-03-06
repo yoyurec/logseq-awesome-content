@@ -4,12 +4,12 @@ import { objectsKeysDiff } from '../utils/utils';
 import { globals } from '../modules/globals/globals';
 
 import { settingsConfig } from './settingsConfig';
-import { toggleContentTasks } from '../modules/content/tasks/tasks';
-import { toggleContentColumns } from '../modules/content/columns/columns';
-import { toggleContentQuotes } from '../modules/content/quotes/quotes';
-import { toggleContentFlashcards } from '../modules/content/flashcards/flashcards';
-import { toggleContentMermaid } from '../modules/content/mermaid/mermaid';
-import { toggleContentHeadersLabels } from '../modules/content/headersLabels/headersLabels';
+import { toggleContentTasks } from '../modules/tasks/tasks';
+import { toggleContentColumns } from '../modules/columns/columns';
+import { toggleContentQuotes } from '../modules/quotes/quotes';
+import { toggleContentFlashcards } from '../modules/flashcards/flashcards';
+import { toggleContentMermaid } from '../modules/mermaid/mermaid';
+import { toggleContentHeadersLabels } from '../modules/headersLabels/headersLabels';
 
 import './settings.css';
 

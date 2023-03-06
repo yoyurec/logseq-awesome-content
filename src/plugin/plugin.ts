@@ -1,12 +1,12 @@
 import { doc, body, globals } from '../modules/globals/globals';
 import { checkPluginUpdate } from '../utils/utils';
 
-import { contentColumnsLoad, contentColumnsUnload } from '../modules/content/columns/columns';
-import { contentFlashcardsLoad, contentFlashcardsUnload } from '../modules/content/flashcards/flashcards';
-import { contentHeadersLabelsLoad, contentHeadersLabelsUnload } from '../modules/content/headersLabels/headersLabels';
-import { contentQuotesLoad, contentQuotesUnload } from '../modules/content/quotes/quotes';
-import { contentTasksLoad, contentTasksUnload } from '../modules/content/tasks/tasks';
-import { contentMermaidLoad } from '../modules/content/mermaid/mermaid';
+import { contentColumnsLoad, contentColumnsUnload } from '../modules/columns/columns';
+import { contentFlashcardsLoad, contentFlashcardsUnload } from '../modules/flashcards/flashcards';
+import { contentHeadersLabelsLoad, contentHeadersLabelsUnload } from '../modules/headersLabels/headersLabels';
+import { contentQuotesLoad, contentQuotesUnload } from '../modules/quotes/quotes';
+import { contentTasksLoad, contentTasksUnload } from '../modules/tasks/tasks';
+import { contentMermaidLoad } from '../modules/mermaid/mermaid';
 
 export const pluginLoad = () => {
     body.classList.add(globals.isPluginEnabled);

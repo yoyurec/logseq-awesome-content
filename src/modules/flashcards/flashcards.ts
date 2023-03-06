@@ -1,4 +1,4 @@
-import { doc, globals } from '../../globals/globals';
+import { doc, globals } from '../globals/globals';
 
 import flashcardAwesomeStyles from './flashcardAwesome.css?inline';
 import flashcardFlatStyles from './flashcardFlat.css?inline';
