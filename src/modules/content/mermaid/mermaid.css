@@ -1,3 +1,7 @@
+.mermaid svg {
+    border: 2px dotted var(--ls-border-color);
+}
+
 .mermaid svg[aria-roledescription="gantt"] .task,
 .mermaid .labelBox,
 .mermaid .label,

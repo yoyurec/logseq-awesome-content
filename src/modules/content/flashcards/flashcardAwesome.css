@@ -1,3 +1,7 @@
+.cards-review .ui__dropdown-trigger {
+    z-index: 11 !important;
+}
+
 .ls-block[data-refs-self*='"card"'] {
     --ls-guideline-color: transparent;
     position: relative;

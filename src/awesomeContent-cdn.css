@@ -2,9 +2,6 @@
 /* @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/awesomeContent-content.css") only screen and (max-width: 1024px); */
 
 /* Components */
-
-@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/content.css") only screen and (max-width: 1024px);
-
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/admonition/admonition.css") only screen and (max-width: 1024px);
 
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/calculator/calculator.css") only screen and (max-width: 1024px);
@@ -23,3 +20,7 @@
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/quotes/quotes.css") only screen and (max-width: 1024px);
 
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/content/tasks/tasks.css") only screen and (max-width: 1024px);
+
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/code/code.css") only screen and (max-width: 1024px);
+
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/other/other.css") only screen and (max-width: 1024px);

@@ -1,0 +1,11 @@
+/* image overlay*/
+.block-content .asset-container .asset-overlay {
+    height: 40px;
+}
+
+/* line */
+hr {
+    margin: 0.7em 0;
+    border-top: 2px dotted var(--ls-guideline-color);
+}
+
