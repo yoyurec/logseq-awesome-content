@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.1...v1.0.2) (2023-03-06)
+
+
+### Bug Fixes
+
+* **all:** folders structure ([2c9ea97](https://github.com/yoyurec/logseq-awesome-content/commit/2c9ea97333735498b62833b925177074eefd109e))
+* **code:** block styles ([618ebd3](https://github.com/yoyurec/logseq-awesome-content/commit/618ebd33beec3cef3cba2e015c6a85a122ab6c57))
+
 ## [1.0.1](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.0...v1.0.1) (2023-03-06)
 
 

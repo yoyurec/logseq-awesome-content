@@ -1,7 +1,7 @@
 {
   "name": "logseq-awesome-content",
   "description": "Enhanced content blocks (tasks, quotes, flashcards, headers, queries, diagrams, etc...)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "yoyurec <yoyurec@gmail.com>",
   "main": "dist/index.html",
   "scripts": {
