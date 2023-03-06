@@ -1,0 +1,46 @@
+{
+  "name": "logseq-awesome-content",
+  "description": "Enhanced content blocks (tasks, quotes, flashcards, headers, queries, diagrams, etc...)",
+  "version": "1.0.0",
+  "author": "yoyurec <yoyurec@gmail.com>",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preinstall": "npx only-allow pnpm",
+    "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@logseq/libs": "0.0.14"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.35.0",
+    "semantic-release": "^20.1.1",
+    "typescript": "^4.9.5",
+    "vite": "4.1.4"
+  },
+  "license": "MIT",
+  "logseq": {
+    "title": "Awesome Content",
+    "icon": "./icon.png",
+    "id": "logseq-awesome-content"
+  },
+  "repository": "https://github.com/yoyurec/logseq-awesome-content.git",
+  "effect": true,
+  "sponsors": [
+    "https://www.buymeacoffee.com/yoyurec"
+  ]
+}

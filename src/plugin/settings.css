@@ -1,0 +1,52 @@
+/*
+  >>> BEGIN: Settings icons
+*/
+.panel-wrap[data-id="logseq-awesome-content"] .heading-item h2::before,
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key] small::before {
+    display: inline-block;
+    margin-right: 4px;
+    font-family: "tabler-icons";
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.panel-wrap[data-id="logseq-awesome-content"] .heading-item h2::before {
+    font-size: 22px;
+    line-height: 0;
+    transform: translateY(3px);
+}
+
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key] small::before {
+    transform: translateY(1px);
+}
+
+/* Content */
+.panel-wrap[data-id="logseq-awesome-content"] .heading-item[data-key="contentHeading"] h2::before {
+    content: "\ebb2";
+}
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentTasks"] small::before {
+    content: "\eb6a";
+}
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentColumns"] small::before {
+    content: "\ec3f";
+}
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentQuotes"] small::before {
+    content: "\ee09";
+}
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentFlashcards"] small::before {
+    content: "\ea38";
+}
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentHeadersLabels"] small::before {
+    content: "\eb34";
+}
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentMermaid"] small::before {
+    content: "\ecdf";
+}
+
+/* Other */
+.panel-wrap[data-id="logseq-awesome-content"] .heading-item[data-key="otherHeading"] h2::before {
+    content: "\ea03";
+}
+/*
+  <<<< END: Settings icons
+*/
