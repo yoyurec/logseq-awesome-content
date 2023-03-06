@@ -1,3 +1,13 @@
+## Other my plugins/themes
+* 🪓 [Awesome UI](https://github.com/yoyurec/logseq-awesome-ui)
+* 🎨 [Awesome Styler](https://github.com/yoyurec/logseq-awesome-styler)
+* 📋 [Awesome Props](https://github.com/yoyurec/logseq-awesome-props)
+* ⭐ [Awesome Links](https://github.com/yoyurec/logseq-awesome-links)
+* ✨ [Tabler picker](https://github.com/yoyurec/logseq-tabler-picker)
+* 📰 [Banners](https://github.com/yoyurec/logseq-banners-plugin)
+* 📌 [Sticky Headers](https://github.com/yoyurec/logseq-sticky-headers)
+
+
 ## If you ❤ what i'm doing - you can support my work! ☕
 
 <a href="https://www.buymeacoffee.com/yoyurec"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=yoyurec&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" /></a>
@@ -21,13 +31,6 @@
 
 ![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/scr.png)
 
-## Other my plugins/themes
-* 🪓 [Awesome UI](https://github.com/yoyurec/logseq-awesome-ui)
-* 🎨 [Awesome Styler](https://github.com/yoyurec/logseq-awesome-styler)
-* 📋 [Awesome Props](https://github.com/yoyurec/logseq-awesome-props)
-* ⭐ [Awesome Links](https://github.com/yoyurec/logseq-awesome-links)
-* 📰 [Banners](https://github.com/yoyurec/logseq-banners-plugin)
-* 📌 [Sticky Headers](https://github.com/yoyurec/logseq-sticky-headers) experimentsl
 
 ## Installation
 

@@ -49,7 +49,6 @@ const unregisterPlugin = () => {
 
 // Main logic runners
 const runStuff = async () => {
-    globals.getDOMContainers();
     setTimeout(() => {
         contentTasksLoad();
         contentHeadersLabelsLoad();
