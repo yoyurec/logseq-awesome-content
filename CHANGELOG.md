@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.0...v1.1.1) (2023-03-07)
+
+
+### Bug Fixes
+
+* **settings:** icon ([ac9d518](https://github.com/yoyurec/logseq-awesome-content/commit/ac9d5187ec081888ced80f085c36767419fe6c7e))
+
 # [1.1.0](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.3...v1.1.0) (2023-03-07)
 
 
