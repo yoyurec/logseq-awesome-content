@@ -27,7 +27,8 @@
 * 💬 Custom styled `#quote` <a href="#-blockquotes">🡖</a>
 * 🔶 Custom styled Mermaid diagrams <a href="#-diagrams">🡖</a>
 * 📋 Compact QUERY results header: settings, table toggler <a href="#-compact-query-results-header">🡖</a>
-* 🧮 Redesigned calculator <a href="#-redesigned-calculator">🡖</a>
+* 🚥 Today queries as columns in journal <a href="#-today-queries">🡖</a>
+* 🧮 Rdesigned calculator <a href="#-redesigned-calculator">🡖</a>
 
 ![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/scr.png)
 
@@ -94,9 +95,14 @@ Just add `#quote` tag to parent block!
 
 ![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/queries.png)
 
+### 🚥 Today queries
+
+![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/today-queries.png)
+
+
 ### 🧮 Redesigned calculator
 
-<img src="https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/calculator.png">
+![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/calculator.png)
 
 ## What is Logseq?
 Logseq is a privacy-first, open-source knowledge base. Visit https://logseq.com for more information.
