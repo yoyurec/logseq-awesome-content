@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.2...v1.0.3) (2023-03-07)
+
+
+### Bug Fixes
+
+* **code:** block style cleanup ([7820472](https://github.com/yoyurec/logseq-awesome-content/commit/7820472e0808e3165bf0121331050a5cde309db4))
+
 ## [1.0.2](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.1...v1.0.2) (2023-03-06)
 
 
