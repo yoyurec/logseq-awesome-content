@@ -41,8 +41,7 @@ From Logseq store - `Plugins -> Marketplace`
 ![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/market.png)
 
 ### CSS for mobile app
-Just content components styles, no header/sidebars/search/etc UI changes.
-Paste to your `custom.css`:
+Paste to your `custom.css` (media queries will hide duplicated CSS from dektop, where they already inserted via plugin):
 ```css
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/awesomeContent-cdn.css") only screen and (max-width: 1024px);
 ```

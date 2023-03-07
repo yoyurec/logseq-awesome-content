@@ -1,12 +1,13 @@
 import { doc, body, globals } from '../modules/globals/globals';
 import { checkPluginUpdate } from '../utils/utils';
 
-import { contentColumnsLoad, contentColumnsUnload } from '../modules/columns/columns';
-import { contentFlashcardsLoad, contentFlashcardsUnload } from '../modules/flashcards/flashcards';
-import { contentHeadersLabelsLoad, contentHeadersLabelsUnload } from '../modules/headersLabels/headersLabels';
-import { contentQuotesLoad, contentQuotesUnload } from '../modules/quotes/quotes';
-import { contentTasksLoad, contentTasksUnload } from '../modules/tasks/tasks';
-import { contentMermaidLoad } from '../modules/mermaid/mermaid';
+import { toggleContentColumns, contentColumnsUnload } from '../modules/columns/columns';
+import { toggleContentFlashcards, contentFlashcardsUnload } from '../modules/flashcards/flashcards';
+import { toggleContentHeadersLabels, contentHeadersLabelsUnload } from '../modules/headersLabels/headersLabels';
+import { toggleContentQuotes, contentQuotesUnload } from '../modules/quotes/quotes';
+import { toggleContentTasks, contentTasksUnload } from '../modules/tasks/tasks';
+import { contentMermaidUnload, toggleContentMermaid } from '../modules/mermaid/mermaid';
+import { toggleTodayQueries } from '../modules/todayQueries/todayQueries';
 
 export const pluginLoad = () => {
     body.classList.add(globals.isPluginEnabled);
@@ -50,12 +51,13 @@ const unregisterPlugin = () => {
 // Main logic runners
 const runStuff = async () => {
     setTimeout(() => {
-        contentTasksLoad();
-        contentHeadersLabelsLoad();
-        contentColumnsLoad();
-        contentQuotesLoad();
-        contentFlashcardsLoad();
-        contentMermaidLoad();
+        toggleContentTasks();
+        toggleContentHeadersLabels();
+        toggleContentColumns();
+        toggleTodayQueries();
+        toggleContentQuotes();
+        toggleContentFlashcards();
+        toggleContentMermaid();
     }, 2000);
 }
 
@@ -65,5 +67,5 @@ const stopStuff = () => {
     contentColumnsUnload();
     contentQuotesUnload();
     contentFlashcardsUnload();
-    contentMermaidLoad();
+    contentMermaidUnload();
 }

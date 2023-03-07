@@ -11,7 +11,7 @@ export const toggleContentFlashcards = () => {
     }
 }
 
-export const contentFlashcardsLoad = async () => {
+export const contentFlashcardsLoad = () => {
     let flashcardsStyles = '';
     switch (globals.pluginConfig.contentFlashcards) {
         case 'Awesome':

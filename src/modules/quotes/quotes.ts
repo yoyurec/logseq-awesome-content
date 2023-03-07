@@ -10,10 +10,7 @@ export const toggleContentQuotes = () => {
     }
 }
 
-export const contentQuotesLoad = async () => {
-    if (!globals.pluginConfig.contentQuotes) {
-        return;
-    }
+export const contentQuotesLoad = () => {
     logseq.provideStyle({ key: 'awCo-quote-css', style: quoteStyles });
 }
 

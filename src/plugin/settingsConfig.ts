@@ -16,9 +16,16 @@ export const settingsConfig: SettingSchemaDesc[] = [
         default: true,
     },
     {
+        key: 'todayQueriesColumns',
+        title: '',
+        description: 'Show today queries (Journals) in columns:',
+        type: 'string',
+        default: '2',
+    },
+    {
         key: 'contentColumns',
         title: '',
-        description: 'Enable columns: "#.kanban" & "#.grid" tags?',
+        description: 'Enable columns (use "#.kanban" & "#.grid" tags) in content?',
         type: 'boolean',
         default: true,
     },

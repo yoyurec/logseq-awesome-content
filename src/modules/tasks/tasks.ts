@@ -11,9 +11,6 @@ export const toggleContentTasks = () => {
 }
 
 export const contentTasksLoad = async () => {
-    if (!globals.pluginConfig.contentTasks) {
-        return;
-    }
     logseq.provideStyle({ key: 'awCo-tasks-css', style: tasksStyles });
 }
 

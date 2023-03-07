@@ -12,6 +12,7 @@ import { toggleContentMermaid } from '../modules/mermaid/mermaid';
 import { toggleContentHeadersLabels } from '../modules/headersLabels/headersLabels';
 
 import './settings.css';
+import { toggleTodayQueries } from '../modules/todayQueries/todayQueries';
 
 export const settingsLoad = () => {
     logseq.useSettingsSchema(settingsConfig);
@@ -48,5 +49,8 @@ export const onSettingsChangedCallback = (settings: LSPluginBaseInfo['settings']
     }
     if (settingsChangedKey.includes('contentMermaid')) {
         toggleContentMermaid();
+    }
+    if (settingsChangedKey.includes('todayQueriesColumns')) {
+        toggleTodayQueries();
     }
 }

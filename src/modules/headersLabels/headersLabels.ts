@@ -10,10 +10,7 @@ export const toggleContentHeadersLabels = () => {
     }
 }
 
-export const contentHeadersLabelsLoad = async () => {
-    if (!globals.pluginConfig.contentHeadersLabels) {
-        return;
-    }
+export const contentHeadersLabelsLoad = () => {
     logseq.provideStyle({ key: 'awCo-headersLabels-css', style: headersLabelsStyles });
 }
 export const contentHeadersLabelsUnload = () => {

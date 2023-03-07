@@ -11,9 +11,6 @@ export const toggleContentColumns = () => {
 }
 
 export const contentColumnsLoad = async () => {
-    if (!globals.pluginConfig.contentColumns) {
-        return;
-    }
     logseq.provideStyle({ key: 'awCo-columns-css', style: columnsStyles });
 }
 

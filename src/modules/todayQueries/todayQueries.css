@@ -1,0 +1,25 @@
+#today-queries {
+    --awCo-today-queries-gap: 10px;
+    display: flow-root;
+}
+#today-queries > .lazy-visibility {
+    float: left;
+    width: calc((100% - (var(--awCo-today-queries-colums, 2) - 1) * var(--awCo-today-queries-gap, 10px)) / var(--awCo-today-queries-colums, 2));
+    min-height: unset!important;
+}
+#today-queries > .lazy-visibility + .lazy-visibility {
+    margin-left: var(--awCo-today-queries-gap);
+}
+#today-queries .custom-query {
+    position: relative;
+}
+#today-queries .custom-query > .flex > .content > .foldable-title > .flex > .block-control {
+    right: 0;
+    position: absolute;
+}
+#today-queries .custom-query > .flex > .content > .foldable-title > .flex > .block-control .rotating-arrow.not-collapsed svg {
+    transform: rotate(90deg);
+}
+#today-queries .custom-query > .flex > .content > .foldable-title > .flex > .block-control .rotating-arrow.collapsed svg {
+    transform: rotate(270deg);
+}

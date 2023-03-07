@@ -10,10 +10,7 @@ export const toggleContentMermaid = () => {
     }
 }
 
-export const contentMermaidLoad = async () => {
-    if (!globals.pluginConfig.contentMermaid) {
-        return;
-    }
+export const contentMermaidLoad = () => {
     logseq.provideStyle({ key: 'awCo-mermaid-css', style: mermaidStyles });
 }
 
