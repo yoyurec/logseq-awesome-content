@@ -27,6 +27,9 @@
 .panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentTasks"] small::before {
     content: "\eb6a";
 }
+.panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="todayQueriesColumns"] small::before {
+    content: "\ec3f";
+}
 .panel-wrap[data-id="logseq-awesome-content"] .desc-item[data-key="contentColumns"] small::before {
     content: "\ec3f";
 }
