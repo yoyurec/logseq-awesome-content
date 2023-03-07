@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.3...v1.1.0) (2023-03-07)
+
+
+### Features
+
+* **modules:** add today queries in columns ([31f2f96](https://github.com/yoyurec/logseq-awesome-content/commit/31f2f961efde9a148b69bd259e91be934aa080a2))
+
 ## [1.0.3](https://github.com/yoyurec/logseq-awesome-content/compare/v1.0.2...v1.0.3) (2023-03-07)
 
 
