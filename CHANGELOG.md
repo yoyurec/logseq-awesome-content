@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.1...v1.1.2) (2023-03-09)
+
+
+### Bug Fixes
+
+* **tasks:** done checkbox position ([3776732](https://github.com/yoyurec/logseq-awesome-content/commit/37767320a831f35332874025b77db6a248419175))
+
 ## [1.1.1](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.0...v1.1.1) (2023-03-07)
 
 
