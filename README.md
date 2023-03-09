@@ -42,7 +42,7 @@ From Logseq store - `Plugins -> Marketplace`
 ![](https://github.com//yoyurec/logseq-awesome-content/raw/main/screenshots/market.png)
 
 ### CSS for mobile app
-Paste to your `custom.css` (media queries will hide duplicated CSS from dektop, where they already inserted via plugin):
+Paste to your `custom.css` (media queries will hide duplicated CSS from desktop, where they already inserted via plugin):
 ```css
 @import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/awesomeContent-cdn.css") only screen and (max-width: 1024px);
 ```

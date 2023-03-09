@@ -64,7 +64,7 @@
 .content .done .form-checkbox {
     position: absolute;
     margin-left: -4.1em;
-    top: 0.4ex;
+    top: 5px;
     background-color: var(--awCo-marker-done) !important;
     opacity: 0.7;
     transform: none;
