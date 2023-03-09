@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.2...v1.1.3) (2023-03-09)
+
+
+### Bug Fixes
+
+* **today-queries:** disable styles when < 1 columns ([98d1155](https://github.com/yoyurec/logseq-awesome-content/commit/98d11551a1a80e4495418a306c6335d09aeb6b95))
+
 ## [1.1.2](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.1...v1.1.2) (2023-03-09)
 
 
