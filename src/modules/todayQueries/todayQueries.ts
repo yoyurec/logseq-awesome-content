@@ -3,7 +3,7 @@ import { doc, globals, root } from '../globals/globals';
 import todayQueriesStyles from './todayQueries.css?inline';
 
 export const toggleTodayQueries = () => {
-    if (globals.pluginConfig.todayQueriesColumns) {
+    if (globals.pluginConfig.todayQueriesColumns > 1) {
         todayQueriesLoad();
     } else {
         todayQueriesUnload();
