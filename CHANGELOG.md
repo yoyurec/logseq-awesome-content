@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.3...v1.1.4) (2023-03-10)
+
+
+### Bug Fixes
+
+* **today-queries:** set 1 by default ([8c400d0](https://github.com/yoyurec/logseq-awesome-content/commit/8c400d0da85b249e520b83b454abe4e1462f5a83))
+
 ## [1.1.3](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.2...v1.1.3) (2023-03-09)
 
 
