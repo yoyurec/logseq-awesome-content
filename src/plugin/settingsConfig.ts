@@ -20,7 +20,7 @@ export const settingsConfig: SettingSchemaDesc[] = [
         title: '',
         description: 'Show today queries (Journals) in columns:',
         type: 'string',
-        default: '2',
+        default: '1',
     },
     {
         key: 'contentColumns',
