@@ -72,6 +72,7 @@ Use your own values, or set default `var(--ls-link-text-color)`
 
 ### 🚥 Kanban board
 Just add `#.kanban` tag to parent block and all children will become columns!
+Add `#.kanban-300`, `#.kanban-400`, `#.kanban-500` instead of default to rule min columns width.
 Recommend additionally to install [Logseq Plugin TODO Master](https://github.com/pengx17/logseq-plugin-todo-master)
 and check [Logseq template](./extra/Kanban%20template.md)
 
