@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.4...v1.2.0) (2023-03-12)
+
+
+### Features
+
+* **columns:** add width variations ([d20c145](https://github.com/yoyurec/logseq-awesome-content/commit/d20c145acd2070961496a78df6056b45e0fb0256))
+
 ## [1.1.4](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.3...v1.1.4) (2023-03-10)
 
 
