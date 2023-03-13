@@ -1,6 +1,7 @@
 #today-queries {
     --awCo-today-queries-gap: 10px;
     display: flow-root;
+    margin-bottom: 16px;
 }
 #today-queries > .lazy-visibility {
     float: left;

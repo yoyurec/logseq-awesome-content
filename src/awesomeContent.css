@@ -1,3 +1,6 @@
+@import url("./modules/headers/headers.css");
+@import url("./modules/pages/pages.css");
+@import url("./modules/breadcrumbs/breadcrumbs.css");
 @import url("./modules/query/query.css");
 @import url("./modules/admonition/admonition.css");
 @import url("./modules/calculator/calculator.css");
