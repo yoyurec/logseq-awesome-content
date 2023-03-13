@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/yoyurec/logseq-awesome-content/compare/v1.2.0...v1.2.1) (2023-03-13)
+
+
+### Bug Fixes
+
+* **migration:** headers, pages, breadcrunmbs from AwUI & AwStyler ([583bf89](https://github.com/yoyurec/logseq-awesome-content/commit/583bf8923d8c2ce2159322da7fbf95b1116e7c25))
+
 # [1.2.0](https://github.com/yoyurec/logseq-awesome-content/compare/v1.1.4...v1.2.0) (2023-03-12)
 
 
