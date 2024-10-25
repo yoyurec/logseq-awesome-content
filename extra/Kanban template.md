@@ -1,6 +1,6 @@
 template:: 🚥 Kanban
 
-	- **Board name:** #kanban
+	- **Board name:** #.kanban
 		- [[🟢 low]]
 		  {{renderer :todomaster}}
 			- ...
