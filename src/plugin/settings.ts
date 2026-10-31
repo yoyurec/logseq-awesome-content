@@ -16,7 +16,9 @@ import { toggleTodayQueries } from '../modules/todayQueries/todayQueries';
 
 export const settingsLoad = () => {
     logseq.useSettingsSchema(settingsConfig);
-    globals.pluginConfig = logseq.settings;
+    // logseq.settings is undefined when Logseq cannot read the settings file; fall back to the schema defaults
+    const defaults = Object.fromEntries(settingsConfig.map((item) => [item.key, item.default]));
+    globals.pluginConfig = { ...defaults, ...logseq.settings };
 
     // Listen settings update
     logseq.onSettingsChanged((settings, oldSettings) => {
